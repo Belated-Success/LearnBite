@@ -38,7 +38,7 @@ const Checkout = () => {
     const options = {
       key: razorPayKey,
       subscription_id: subscription_id,
-      name: "Coursify Pvt. Ltd.",
+      name: "LearnBite Pvt. Ltd.",
       description: "Monthly Subscription",
       handler: async function (response) {
         paymentDetails.razorpay_payment_id = response.razorpay_payment_id;

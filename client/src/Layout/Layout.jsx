@@ -17,12 +17,12 @@ const Layout = ({ children }) => {
     // for displaying the options acc to role
     const role = useSelector((state) => state?.auth?.role);
 
-    function changeWidth() {
+    const changeWidth = () => {
         const drawerSide = document.getElementsByClassName("drawer-side");
         drawerSide[0].style.width = 'auto';
     }
 
-    function hideDrawer() {
+    const hideDrawer = () => {
         const element = document.getElementsByClassName("drawer-toggle");
         element[0].checked = false;
 
@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
         drawerSide[0].style.width = '0';
     }
 
-    async function handleLogout(e) {
+    const handleLogout = async (e) => {
         e.preventDefault();
 
         const res = await dispatch(logout());

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://learnbite-api.vercel.app/api/v1";
+const BASE_URL = "https://learnbite-api.onrender.com/api/v1";
 
 const axiosInstance = axios.create();
 

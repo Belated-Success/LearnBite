@@ -1,7 +1,8 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "backend for learning management system LearnBite",
+  "private" : "true",
   "main": "server.js",
   "type": "module",
   "scripts": {

@@ -23,5 +23,5 @@ const PORT = process.env.PORT;
 app.listen(PORT, async () => {
   // Connect to DB
   await connectToDB();
-  console.log(`App is running at http://localhost:${PORT}`);
+  console.log(`App is running at https://learnbite-api.vercel.app`);
 });
